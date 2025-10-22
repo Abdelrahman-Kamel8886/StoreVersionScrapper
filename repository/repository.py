@@ -1,6 +1,6 @@
 from datetime import datetime
 
-from data.bank_list import android_ids, ios_ids
+from data.bank_list import bank_list
 from model.scrape_result import ScrapeResult
 from remote.remote_data_source import fetch_android_app_data, fetch_ios_app_data
 from utils.file_manger import read_json_file
@@ -15,16 +15,16 @@ def scrape_all_apps():
 
     # Fetch Android apps model
     print("Fetching Android apps model...")
-    for app_id in android_ids:
-        print(f"Fetching Android model for: {app_id}")
-        data = fetch_android_app_data(app_id)
+    for bank in bank_list:
+        print(f"Fetching Android model for: {bank.bankName}")
+        data = fetch_android_app_data(bank)
         android_data.append(data)
 
     # Fetch iOS apps model
     print("Fetching iOS apps model...")
-    for app_id in ios_ids:
-        print(f"Fetching iOS model for: {app_id}")
-        data = fetch_ios_app_data(app_id)
+    for bank in bank_list:
+        print(f"Fetching iOS model for: {bank.bankName}")
+        data = fetch_ios_app_data(bank)
         ios_data.append(data)
 
     final_data = ScrapeResult(

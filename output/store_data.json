@@ -1,17 +1,18 @@
 {
-    "scrape_date": "2025-10-22 12:57:11",
+    "scrape_date": "2025-10-22 14:53:22",
     "total_apps": 24,
     "android_apps_count": 12,
     "ios_apps_count": 12,
     "android": [
         {
+            "bank_name": "ADCB",
             "app_id": "com.Fawry.ADCB",
             "platform": "Android",
             "app_name": "Wa2ty",
             "version": "2.14.50",
             "release_date": "2025-09-03",
             "rate": 4.1010103,
-            "last_updated": "2025-10-22 12:56:43",
+            "last_updated": "2025-10-22 14:52:51",
             "image_url": "https://play-lh.googleusercontent.com/iCaXbb9MIY1UQeX-gzrnK0jEICFq_dDPSYjjvqJDimYIRzBfE1SS0uNlDnARtJ6VCMQ",
             "store_url": "https://play.google.com/store/apps/details?id=com.Fawry.ADCB&hl=en&gl=eg",
             "history": [
@@ -22,13 +23,14 @@
             ]
         },
         {
+            "bank_name": "ADIB",
             "app_id": "com.adib.wallet",
             "platform": "Android",
             "app_name": "Masarify 3altayer",
             "version": "2.14.6",
             "release_date": "2023-08-15",
             "rate": 2.73,
-            "last_updated": "2025-10-22 12:56:44",
+            "last_updated": "2025-10-22 14:52:54",
             "image_url": "https://play-lh.googleusercontent.com/XUw_iDGLtiNQyDPp3VDB0FuLIUbynWJYuYwZuPrDPhbyY0j-fXN6CdHKSd-KZCSsrQg",
             "store_url": "https://play.google.com/store/apps/details?id=com.adib.wallet&hl=en&gl=eg",
             "history": [
@@ -39,13 +41,14 @@
             ]
         },
         {
+            "bank_name": "BM",
             "app_id": "com.emeint.android.mwallet.bm",
             "platform": "Android",
             "app_name": "BM Wallet",
             "version": "2.2.42",
             "release_date": "2025-05-04",
             "rate": 3.6470125,
-            "last_updated": "2025-10-22 12:56:46",
+            "last_updated": "2025-10-22 14:52:58",
             "image_url": "https://play-lh.googleusercontent.com/Sgiske7YAZDfSj9MP-Iv5mRKWwolBB86LNucWlmPK6CZuB2w2z07TvHiMkJsmFGbwA",
             "store_url": "https://play.google.com/store/apps/details?id=com.emeint.android.mwallet.bm&hl=en&gl=eg",
             "history": [
@@ -56,13 +59,14 @@
             ]
         },
         {
+            "bank_name": "EBE",
             "app_id": "com.ebe.wallet",
             "platform": "Android",
             "app_name": "Gebe - جيبي",
             "version": "2.14.9",
             "release_date": "2024-06-13",
             "rate": 4.34,
-            "last_updated": "2025-10-22 12:56:48",
+            "last_updated": "2025-10-22 14:53:02",
             "image_url": "https://play-lh.googleusercontent.com/T8H3mdQ2FlKO7kgYI_o8-BE2PY4MXufJwLFfpo-zU4nO4475vuB0oxgbFiy5wbYJrg",
             "store_url": "https://play.google.com/store/apps/details?id=com.ebe.wallet&hl=en&gl=eg",
             "history": [
@@ -73,13 +77,14 @@
             ]
         },
         {
+            "bank_name": "FIB",
             "app_id": "com.fibe.wallet",
             "platform": "Android",
             "app_name": "Faisal Cash",
             "version": "2.14.23",
             "release_date": "2024-08-29",
             "rate": 3.07,
-            "last_updated": "2025-10-22 12:56:49",
+            "last_updated": "2025-10-22 14:53:03",
             "image_url": "https://play-lh.googleusercontent.com/0kkw0wLtNz5hPcLK243n9TDVQ0kv2TKJCy6ylLfvYWNhwodkRtrJUu-may69HhrRZQ",
             "store_url": "https://play.google.com/store/apps/details?id=com.fibe.wallet&hl=en&gl=eg",
             "history": [
@@ -90,13 +95,14 @@
             ]
         },
         {
+            "bank_name": "HDB",
             "app_id": "com.emeint.android.mwallet.hdb",
             "platform": "Android",
             "app_name": "Floussy Phone - فلوسي فون",
             "version": "Varies with device",
             "release_date": "N/A",
             "rate": 3.07,
-            "last_updated": "2025-10-22 12:56:51",
+            "last_updated": "2025-10-22 14:53:05",
             "image_url": "https://play-lh.googleusercontent.com/5hNuLPWO-FytQBZdYp9-SkeuWWsSQv_jmIFukx-r7Es7nVFBvtjkZetNNV4oMpjlCw",
             "store_url": "https://play.google.com/store/apps/details?id=com.emeint.android.mwallet.hdb&hl=en&gl=eg",
             "history": [
@@ -107,13 +113,14 @@
             ]
         },
         {
+            "bank_name": "KFH",
             "app_id": "com.AUB.Wallet",
             "platform": "Android",
             "app_name": "KFH Egypt Digital Wallet",
             "version": "Varies with device",
             "release_date": "N/A",
             "rate": 3.82,
-            "last_updated": "2025-10-22 12:56:53",
+            "last_updated": "2025-10-22 14:53:06",
             "image_url": "https://play-lh.googleusercontent.com/_PcS19qOniL8kalEb5Ir92ib9xG3icee5hzfiCmwU5MwT657YUspaWILib0HvNtQLLo",
             "store_url": "https://play.google.com/store/apps/details?id=com.AUB.Wallet&hl=en&gl=eg",
             "history": [
@@ -124,13 +131,14 @@
             ]
         },
         {
+            "bank_name": "NBE",
             "app_id": "com.emeint.android.mwallet",
             "platform": "Android",
             "app_name": "NBE-PhoneCash",
             "version": "2.14.53",
             "release_date": "2025-10-16",
-            "rate": 4.101884,
-            "last_updated": "2025-10-22 12:56:55",
+            "rate": 4.1014605,
+            "last_updated": "2025-10-22 14:53:08",
             "image_url": "https://play-lh.googleusercontent.com/Gp1nBG_LMS9oc2Xotk0u-EfA0DXsTqYW76vFAL4OvCynlaqCeX7i6S6gPZjolX91kg",
             "store_url": "https://play.google.com/store/apps/details?id=com.emeint.android.mwallet&hl=en&gl=eg",
             "history": [
@@ -141,13 +149,14 @@
             ]
         },
         {
+            "bank_name": "QNB",
             "app_id": "com.emeint.android.mwallet.qnb",
             "platform": "Android",
             "app_name": "QNB Egypt E-Wallet",
             "version": "Varies with device",
             "release_date": "N/A",
             "rate": 3.9277108,
-            "last_updated": "2025-10-22 12:56:57",
+            "last_updated": "2025-10-22 14:53:10",
             "image_url": "https://play-lh.googleusercontent.com/XunN1qk8gLe5yzn1kWpThLL1yjbsSaDoMW60Hsb28migrlWDHZkEtYh376peQ0Adrg",
             "store_url": "https://play.google.com/store/apps/details?id=com.emeint.android.mwallet.qnb&hl=en&gl=eg",
             "history": [
@@ -158,13 +167,14 @@
             ]
         },
         {
+            "bank_name": "SCB",
             "app_id": "com.SCB.Wallet",
             "platform": "Android",
             "app_name": "SCB E-Wallet",
             "version": "Varies with device",
             "release_date": "N/A",
             "rate": 4.14,
-            "last_updated": "2025-10-22 12:56:59",
+            "last_updated": "2025-10-22 14:53:13",
             "image_url": "https://play-lh.googleusercontent.com/iMwo7a2ox7bOYBCTHQwTlgjMCfqahkEhdlKlaXpy0euFeFQ2qCSHjsL6g9hnisZAaKY",
             "store_url": "https://play.google.com/store/apps/details?id=com.SCB.Wallet&hl=en&gl=eg",
             "history": [
@@ -175,13 +185,14 @@
             ]
         },
         {
+            "bank_name": "TUB",
             "app_id": "com.emeint.android.mwallet.tub",
             "platform": "Android",
             "app_name": "UB Digital Wallet",
             "version": "2.14.26",
             "release_date": "2024-09-08",
             "rate": 3.45,
-            "last_updated": "2025-10-22 12:57:01",
+            "last_updated": "2025-10-22 14:53:14",
             "image_url": "https://play-lh.googleusercontent.com/Avi6auVFFOKabVX8SEdKF_pUTtugUAhxrP8mryetPC3ESdJfRg3LWcAwlK1HxQrRf1c",
             "store_url": "https://play.google.com/store/apps/details?id=com.emeint.android.mwallet.tub&hl=en&gl=eg",
             "history": [
@@ -192,13 +203,14 @@
             ]
         },
         {
+            "bank_name": "WE",
             "app_id": "com.TE.WEWallet",
             "platform": "Android",
             "app_name": "WE Pay EG",
             "version": "1.0.65",
             "release_date": "2025-08-19",
             "rate": 3.5165048,
-            "last_updated": "2025-10-22 12:57:03",
+            "last_updated": "2025-10-22 14:53:16",
             "image_url": "https://play-lh.googleusercontent.com/6XZKvhiCf64MnUVMl6KqcWKq97dzql9OVD9ctaNnt1VTtJS3RE6Dsk6GCM7e_8nnOzE",
             "store_url": "https://play.google.com/store/apps/details?id=com.TE.WEWallet&hl=en&gl=eg",
             "history": [
@@ -211,13 +223,14 @@
     ],
     "ios": [
         {
+            "bank_name": "ADCB",
             "app_id": "1594153647",
             "platform": "iOS",
             "app_name": "ADCB-Egypt Digital Wallet",
             "version": "2.14.42",
             "release_date": "2025-10-07",
             "rate": 3.94118,
-            "last_updated": "2025-10-22 12:57:04",
+            "last_updated": "2025-10-22 14:53:17",
             "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7d/2e/62/7d2e62b3-8ce2-708b-1234-b216692d7f9a/AppIcon-1x_U007emarketing-0-7-0-0-85-220-0.png/100x100bb.jpg",
             "store_url": "https://apps.apple.com/eg/app/adcb-egypt-digital-wallet/id1594153647?uo=4",
             "history": [
@@ -228,13 +241,14 @@
             ]
         },
         {
+            "bank_name": "ADIB",
             "app_id": "1440012755",
             "platform": "iOS",
             "app_name": "Masarify 3altayer",
             "version": "2.14.6",
             "release_date": "2025-09-27",
             "rate": 1.78378,
-            "last_updated": "2025-10-22 12:57:04",
+            "last_updated": "2025-10-22 14:53:17",
             "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c3/96/b4/c396b49e-7d34-7cd4-a3c1-b44468a91735/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/100x100bb.jpg",
             "store_url": "https://apps.apple.com/eg/app/masarify-3altayer/id1440012755?uo=4",
             "history": [
@@ -245,13 +259,14 @@
             ]
         },
         {
+            "bank_name": "BM",
             "app_id": "1198210184",
             "platform": "iOS",
             "app_name": "BM Wallet",
             "version": "2.8.40",
             "release_date": "2025-07-13",
             "rate": 3.37183,
-            "last_updated": "2025-10-22 12:57:05",
+            "last_updated": "2025-10-22 14:53:18",
             "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/88/b2/53/88b253aa-c77c-96dd-3964-26efac783bc0/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/100x100bb.jpg",
             "store_url": "https://apps.apple.com/eg/app/bm-wallet/id1198210184?uo=4",
             "history": [
@@ -262,13 +277,14 @@
             ]
         },
         {
+            "bank_name": "EBE",
             "app_id": "1463864456",
             "platform": "iOS",
             "app_name": "Gebe - جيبي",
             "version": "2.14.41",
             "release_date": "2025-09-25",
             "rate": 3.9375,
-            "last_updated": "2025-10-22 12:57:06",
+            "last_updated": "2025-10-22 14:53:18",
             "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/30/15/dd/3015ddc0-f711-f30b-409b-833c8bed5c19/AppIcon-1x_U007emarketing-0-7-0-0-85-220-0.png/100x100bb.jpg",
             "store_url": "https://apps.apple.com/eg/app/gebe-%D8%AC%D9%8A%D8%A8%D9%8A/id1463864456?uo=4",
             "history": [
@@ -279,13 +295,14 @@
             ]
         },
         {
+            "bank_name": "FIB",
             "app_id": "1497454729",
             "platform": "iOS",
             "app_name": "Faisal Cash",
             "version": "2.11.2",
             "release_date": "2023-05-15",
             "rate": 3.7381,
-            "last_updated": "2025-10-22 12:57:07",
+            "last_updated": "2025-10-22 14:53:19",
             "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/2d/f6/c9/2df6c940-bb27-e10a-4618-ff49a19cb5b7/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg",
             "store_url": "https://apps.apple.com/eg/app/faisal-cash/id1497454729?uo=4",
             "history": [
@@ -296,13 +313,14 @@
             ]
         },
         {
+            "bank_name": "HDB",
             "app_id": "1463541976",
             "platform": "iOS",
             "app_name": "Floussy Phone",
             "version": "1.0.39",
             "release_date": "2023-05-16",
             "rate": 3.03226,
-            "last_updated": "2025-10-22 12:57:07",
+            "last_updated": "2025-10-22 14:53:19",
             "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/8c/30/6e/8c306eca-8c1c-8e65-6be0-21c5f16d1be7/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.jpg",
             "store_url": "https://apps.apple.com/eg/app/floussy-phone/id1463541976?uo=4",
             "history": [
@@ -313,13 +331,14 @@
             ]
         },
         {
+            "bank_name": "KFH",
             "app_id": "1460258332",
             "platform": "iOS",
             "app_name": "KFH Egypt Digital Wallet",
             "version": "2.18",
             "release_date": "2025-10-16",
             "rate": 3.85714,
-            "last_updated": "2025-10-22 12:57:08",
+            "last_updated": "2025-10-22 14:53:20",
             "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d0/d3/ff/d0d3ffe0-4266-c6bb-5b38-22ab5986134e/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/100x100bb.jpg",
             "store_url": "https://apps.apple.com/eg/app/kfh-egypt-digital-wallet/id1460258332?uo=4",
             "history": [
@@ -330,13 +349,14 @@
             ]
         },
         {
+            "bank_name": "NBE",
             "app_id": "852214818",
             "platform": "iOS",
             "app_name": "NBE-PhoneCash",
             "version": "2.14.41",
             "release_date": "2025-09-13",
             "rate": 3.16559,
-            "last_updated": "2025-10-22 12:57:09",
+            "last_updated": "2025-10-22 14:53:20",
             "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e4/d9/21/e4d92170-860e-4fa9-8590-99beb5d49e3d/AppIcon-1x_U007emarketing-0-7-0-0-85-220-0.png/100x100bb.jpg",
             "store_url": "https://apps.apple.com/eg/app/nbe-phonecash/id852214818?uo=4",
             "history": [
@@ -347,13 +367,14 @@
             ]
         },
         {
+            "bank_name": "QNB",
             "app_id": "1276086624",
             "platform": "iOS",
             "app_name": "QNB Egypt E-Wallet",
             "version": "200.15.6",
             "release_date": "2025-09-19",
             "rate": 4.18342,
-            "last_updated": "2025-10-22 12:57:09",
+            "last_updated": "2025-10-22 14:53:21",
             "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/dd/56/94/dd569416-47e8-2ebb-89f3-a745368233e3/AppIcon-1x_U007emarketing-0-7-0-0-85-220-0.png/100x100bb.jpg",
             "store_url": "https://apps.apple.com/eg/app/qnb-egypt-e-wallet/id1276086624?uo=4",
             "history": [
@@ -364,13 +385,14 @@
             ]
         },
         {
+            "bank_name": "SCB",
             "app_id": "1456102154",
             "platform": "iOS",
             "app_name": "SCB E-Wallet",
             "version": "1.2.23",
             "release_date": "2020-12-30",
             "rate": 4.35294,
-            "last_updated": "2025-10-22 12:57:10",
+            "last_updated": "2025-10-22 14:53:21",
             "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/70/eb/66/70eb66f8-c7cc-b0d1-1527-b70e3a11c57b/AppIcon-1x_U007emarketing-0-6-0-0-85-220.png/100x100bb.jpg",
             "store_url": "https://apps.apple.com/eg/app/scb-e-wallet/id1456102154?uo=4",
             "history": [
@@ -381,13 +403,14 @@
             ]
         },
         {
+            "bank_name": "TUB",
             "app_id": "1345952421",
             "platform": "iOS",
             "app_name": "UB Digital Wallet",
             "version": "2.14.32",
             "release_date": "2025-01-20",
             "rate": 4,
-            "last_updated": "2025-10-22 12:57:11",
+            "last_updated": "2025-10-22 14:53:22",
             "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/e7/84/89e784be-253a-770f-79b7-7f3f69c123cb/AppIcon-1x_U007emarketing-0-10-0-0-85-220-0.png/100x100bb.jpg",
             "store_url": "https://apps.apple.com/eg/app/ub-digital-wallet/id1345952421?uo=4",
             "history": [
@@ -398,13 +421,14 @@
             ]
         },
         {
+            "bank_name": "WE",
             "app_id": "1485158275",
             "platform": "iOS",
             "app_name": "WE Pay EG",
             "version": "1.5.34",
             "release_date": "2025-09-18",
             "rate": 2.16149,
-            "last_updated": "2025-10-22 12:57:11",
+            "last_updated": "2025-10-22 14:53:22",
             "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/84/36/6a/84366a40-d852-480b-38eb-08e60837a3dc/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/100x100bb.jpg",
             "store_url": "https://apps.apple.com/eg/app/we-pay-eg/id1485158275?uo=4",
             "history": [

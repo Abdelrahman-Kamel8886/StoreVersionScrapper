@@ -1,23 +1,25 @@
 from datetime import datetime
-from google_play_scraper import app , search
 import requests
+from google_play_scraper import app
 from model.app_model import AppData
+from model.bank_model import BankModel
 from model.history_model import HistoryModel
 from utils import constans as const
 from utils.date_manger import convert_timestamp_to_date, convert_iso_to_date
 
 
-def fetch_android_app_data(android_id : str):
+def fetch_android_app_data(bank : BankModel):
     """Fetch app model from Google Play Store"""
     try:
         result = app(
-            android_id,
+            bank.androidId,
             lang='en',
             country='eg'
         )
 
         app_data = AppData(
-            app_id = android_id,
+            bank_name=bank.bankName,
+            app_id = bank.androidId,
             platform = const.android_type,
             app_name = result.get('title', 'N/A'),
             version = result.get('version', 'N/A'),
@@ -37,18 +39,18 @@ def fetch_android_app_data(android_id : str):
         return app_data
 
     except Exception as e:
-        print(f"Error fetching model for {android_id}: {str(e)}")
+        print(f"Error fetching model for {bank.bankName}: {str(e)}")
         return {
-            "app_id": android_id,
+            "app_id": bank.androidId,
             "platform": "Android",
             "error": str(e),
             "last_updated": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         }
 
-def fetch_ios_app_data(ios_app_id: str):
+def fetch_ios_app_data(bank: BankModel):
     """Fetch app model from iOS App Store using iTunes API."""
     try:
-        url = f"https://itunes.apple.com/lookup?country=eg&id={ios_app_id}"
+        url = f"https://itunes.apple.com/lookup?country=eg&id={bank.iosId}"
         response = requests.get(url, timeout=30)
         response.raise_for_status()
 
@@ -59,7 +61,8 @@ def fetch_ios_app_data(ios_app_id: str):
 
             # create AppData model
             app_data = AppData(
-                app_id=ios_app_id,
+                bank_name=bank.bankName,
+                app_id=bank.iosId,
                 platform=const.ios_type,
                 app_name=result.get('trackName', 'N/A'),
                 version=result.get('version', 'N/A'),
@@ -82,25 +85,25 @@ def fetch_ios_app_data(ios_app_id: str):
 
         else:
             return {
-                "app_id": ios_app_id,
+                "app_id": bank.iosId,
                 "platform": const.ios_type,
                 "error": "App not found in iTunes Store",
                 "last_updated": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
             }
 
     except requests.exceptions.RequestException as e:
-        print(f"Network error fetching iOS model for {ios_app_id}: {str(e)}")
+        print(f"Network error fetching iOS model for {bank.bankName}: {str(e)}")
         return {
-            "app_id": ios_app_id,
+            "app_id": bank.iosId,
             "platform": const.ios_type,
             "error": f"Network error: {str(e)}",
             "last_updated": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
         }
 
     except Exception as e:
-        print(f"Error fetching iOS model for {ios_app_id}: {str(e)}")
+        print(f"Error fetching iOS model for {bank.bankName}: {str(e)}")
         return {
-            "app_id": ios_app_id,
+            "app_id": bank.iosId,
             "platform": const.ios_type,
             "error": str(e),
             "last_updated": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),

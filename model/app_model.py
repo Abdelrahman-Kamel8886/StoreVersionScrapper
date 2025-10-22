@@ -7,6 +7,7 @@ from model.history_model import HistoryModel
 class AppData:
     def __init__(
             self,
+            bank_name: str,
             app_id: str,
             platform: str,
             app_name: str,
@@ -18,6 +19,7 @@ class AppData:
             store_url: str,
             history: List[HistoryModel],
     ):
+        self.bank_name = bank_name
         self.app_id = app_id
         self.platform = platform
         self.app_name = app_name
@@ -32,6 +34,7 @@ class AppData:
     def to_dict(self) -> Dict:
         """Convert AppData (with history) to dictionary."""
         return {
+            "bank_name": self.bank_name,
             "app_id": self.app_id,
             "platform": self.platform,
             "app_name": self.app_name,
@@ -54,6 +57,7 @@ class AppData:
         history_data = data.get("history", [])
         history_models = [HistoryModel.from_dict(h) for h in history_data]
         return cls(
+            bank_name=data.get("bank_name"),
             app_id=data.get("app_id", "N/A"),
             platform=data.get("platform", "Unknown"),
             app_name=data.get("app_name", "N/A"),
