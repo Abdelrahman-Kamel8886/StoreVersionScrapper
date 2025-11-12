@@ -2,11 +2,8 @@ name: Daily Run StoreVersionScrapper
 
 on:
   schedule:
-    - cron: "0 11 * * *"   # كل يوم الساعة 1 الظهر بتوقيت مصر (11 UTC)
-  workflow_dispatch:
-
-permissions:
-  contents: write
+    - cron: "10 11 * * *"   # كل يوم الساعة 1:10 ظهرًا بتوقيت مصر (11:10 UTC)
+  workflow_dispatch:        # يسمح بتشغيل يدوي كمان
 
 jobs:
   run-script:
@@ -24,7 +21,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests beautifulsoup4 lxml
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
       - name: Run the script
         run: python main.py
